@@ -80,6 +80,7 @@ function contribute() external payable {
         }
     }
 
+    // Returns the TotalFunds collected upto that point in time
     function getFundsCollected() external view returns (uint256) {
         return totalFunds;
     }
